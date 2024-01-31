@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "preact/": "https://esm.sh/preact@10.19.2&target=es2022/",
+    "preact": "https://esm.sh/preact@10.19.2?target=es2022"
+  },
+  "tasks": {
+    "dev": "deno run --watch mod.ts"
+  },
+  "compilerOptions": {
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ]
+  }
+}
